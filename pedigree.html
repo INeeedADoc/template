@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pedigree - Stammbaum</title>
+        <link rel="stylesheet" type = "text/css" href="pedigree.css">
+        <script type="text/javascript" src="loadsvgs.js"></script>
+    </head>
+    <body>
+<!-- header ------------------------------------->
+        <iframe src="navbar.php" scrolling="no" frameborder="0" width="100%"></iframe>
+        <iframe src="viewchanger.html" scrolling="no" frameborder="0" width="100%" id="viewchanger"></iframe>
+        <hr>
+<!-- body --------------------------------------->
+        <div id="tree-box">
+            <div class="pet-outer-box" id="left-pet-outer-box">
+                <div class="pet-box" id="pet-box1"> </div>
+            </div>
+            <div class="svg-outer-box">
+                <svg class="svg1" onload="loadsvg()">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+            </div>
+            <div class="pet-outer-box">
+                <div class="pet-box" id="pet-box2-1"></div>
+                <div class="pet-box" id="pet-box2-2"></div>
+            </div>
+            <div class="svg-outer-box">
+                <svg class="svg2" onresize="loadsvg()">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+                <svg class="svg2">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+            </div>
+            <div class="pet-outer-box">
+                <div class="pet-box" id="pet-box3-1"></div>
+                <div class="pet-box" id="pet-box3-2"></div>
+                <div class="pet-box" id="pet-box3-3"></div>
+                <div class="pet-box" id="pet-box3-4"></div>
+            </div>
+            <div class="svg-outer-box">
+                <svg class="svg3">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+                <svg class="svg3">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+                <svg class="svg3">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+                <svg class="svg3">
+                    <line class="ll" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="vl" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl1" x1="0" y1="0" x2="0" y2="0"></line>
+                    <line class="rl2" x1="0" y1="0" x2="0" y2="0"></line>
+                </svg>
+            </div>
+            <div class="pet-outer-box" id="right-pet-outer-box">
+                <div class="pet-box" id="pet-box4-1"></div>
+                <div class="pet-box" id="pet-box4-2"></div>
+                <div class="pet-box" id="pet-box4-3"></div>
+                <div class="pet-box" id="pet-box4-4"></div>
+                <div class="pet-box" id="pet-box4-5"></div>
+                <div class="pet-box" id="pet-box4-6"></div>
+                <div class="pet-box" id="pet-box4-7"></div>
+                <div class="pet-box" id="pet-box4-8"></div>
+            </div>
+        </div>
+        
+    </body>
+</html>

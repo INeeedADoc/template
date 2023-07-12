@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="transform.xslt"?>
+<animals>
+  <animal>
+    <rasse>d</rasse>
+    <farbe>d</farbe>
+    <quelle_zucht>d</quelle_zucht>
+    <vatertier>d</vatertier>
+    <muttertier>d</muttertier>
+    <jungtiere>d</jungtiere>
+    <kurzbeschreibung>d</kurzbeschreibung>
+  </animal>
+</animals>
